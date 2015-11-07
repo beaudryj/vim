@@ -1,0 +1,17 @@
+# poshcomplete-server [![Build status](https://ci.appveyor.com/api/projects/status/5c99vvedrlvoyj7t)](https://ci.appveyor.com/project/cd01/poshcomplete-server)
+
+## Installation
+
+Download from [here](https://ci.appveyor.com/project/cd01/poshcomplete-server/build/artifacts)  
+But [poshcomplete-vim](https://github.com/cd01/poshcomplete-vim) include poshcomplete-server.
+
+
+### Build in windows
+
+``` ps1
+git clone https://github.com/cd01/poshcomplete-server.git
+cd poshcomplete-server
+nuget restore PoshComplete.sln
+msbuild
+```
+
